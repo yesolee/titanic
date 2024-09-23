@@ -24,20 +24,8 @@ st.write("# 타이타닉 생존자 예측 모델링 🛳️")
 st.markdown(
         """
     데이터 분석이 처음이시라구요? 저와 함께 단계별로 분석해봐요!
-    
-    ### 데이터셋 주소
-    - 캐글 타이타닉 [다운로드](https://www.kaggle.com/c/titanic/data)
-    
-    ### 데이터 설명
+   
 """            
 )
 
-data_info = pd.DataFrame({
-    '변수':['Survived', 'Pclass', 'Sex', 'Age', 'SibSp',
-       'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked'],
-    '설명': ['생존여부','티켓 등급(사회적지위 가늠)', '성별', '나이', '함께 탑승한 형제/배우자 수', '함께 탑승한 부모/자녀 수','티켓 번호','승객 요금', '객실 번호', '탑승 항구'],
-    'Key': ['0: 생존하지 못함, 1: 생존', '1: 상위, 2: 중간, 3: 하위','-','-','-','-','-','-','-','C: Cherbourg,  Q: Queenstown, S: Southampton' ]
-})
-
-st.dataframe(data_info, width=1200)
 

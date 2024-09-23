@@ -2,7 +2,7 @@
 # 파이썬 설치시 자동으로 생기는 라이브러리는 적지 않음.(예: os, sys, math, datetime, json, random 등)
 # 언어명도 적지 않음.
 streamlit==1.37.1
-streamlit-extras=0.4.7
+streamlit-extras==0.4.7
 pandas==2.2.2
 numpy==1.26.4
 matplotlib==3.9.2
